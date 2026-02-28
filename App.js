@@ -10,7 +10,6 @@ export default function App() {
     >
       <View style={styles.container}>
 
-        {/* IMAGEM CENTRAL */}
         <View style={styles.center}>
           <Image
             source={require('./assets/imagem/amor.jpg')}
@@ -18,7 +17,6 @@ export default function App() {
           />
         </View>
 
-        {/* TEXTO EMBAIXO */}
         <Text style={styles.texto}>
           Amo minha mulher!!!
         </Text>
